@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a2ef5589ae749c6b7f83e5b11c4de96, type: 3}
+  m_Name: Near Skeleton Conv
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: e7af7863-c779-4aac-969b-db9d0f77c3f7
+    PortName: Next
+    TargetNodeGuid: 89d576ed-6f54-4822-a406-9fa786e4452f
+  - BaseNodeGuid: 9e9bd365-2f1e-45a9-a896-85a447efd504
+    PortName: Next Dialog
+    TargetNodeGuid: a1317035-470b-420e-a5c5-c2fa426b9bd5
+  - BaseNodeGuid: a1317035-470b-420e-a5c5-c2fa426b9bd5
+    PortName: Next Dialog
+    TargetNodeGuid: 06c3b60e-8024-4304-ae3a-38a6f887ec2a
+  - BaseNodeGuid: 89d576ed-6f54-4822-a406-9fa786e4452f
+    PortName: Next Dialog
+    TargetNodeGuid: 098f2d10-8660-43e6-8a26-0bb63884ea0f
+  - BaseNodeGuid: 098f2d10-8660-43e6-8a26-0bb63884ea0f
+    PortName: Next Dialog
+    TargetNodeGuid: 7b018ebd-3cde-459f-9e15-c883df8bd632
+  - BaseNodeGuid: 7b018ebd-3cde-459f-9e15-c883df8bd632
+    PortName: Next Dialog
+    TargetNodeGuid: 2f982198-d638-4a9a-b63c-378318009046
+  - BaseNodeGuid: 2f982198-d638-4a9a-b63c-378318009046
+    PortName: Next Dialog
+    TargetNodeGuid: f12b8529-63e0-4b3b-a1c4-ed0cc87b6be7
+  - BaseNodeGuid: f12b8529-63e0-4b3b-a1c4-ed0cc87b6be7
+    PortName: Next Dialog
+    TargetNodeGuid: 9e9bd365-2f1e-45a9-a896-85a447efd504
+  DialogNodes:
+  - Guid: 89d576ed-6f54-4822-a406-9fa786e4452f
+    Content:
+      characterID: 262cc418-a1f1-4082-b1c7-716216ec4e67
+      emotion: 0
+      DialogText: "\u0417\u0430\u0431\u044B\u043B\u0430 \u043F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0434\u0438\u0442\u044C,
+        \u0437\u0434\u0435\u0441\u044C \u0442\u0430\u043A\u0436\u0435 \u043E\u0431\u0438\u0442\u0430\u044E\u0442
+        \u043C\u043E\u043D\u0441\u0442\u0440\u044B, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0437\u0430\u0445\u043E\u0442\u044F\u0442 \u043F\u0440\u0438\u0447\u0438\u043D\u0438\u0442\u044C
+        \u0442\u0435\u0431\u0435 \u0432\u0440\u0435\u0434."
+    Position: {x: 337, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: a1317035-470b-420e-a5c5-c2fa426b9bd5
+    Content:
+      characterID: 262cc418-a1f1-4082-b1c7-716216ec4e67
+      emotion: 0
+      DialogText: "\u042F \u0445\u043E\u0440\u043E\u0448\u0430 \u0432 \u0442\u0435\u043E\u0440\u0438\u0438,
+        \u043D\u043E \u0434\u043B\u044F \u0431\u043E\u044F \u0441\u043E\u0432\u0441\u0435\u043C
+        \u043D\u0435 \u0433\u043E\u0436\u0443\u0441\u044C. \u0423\u0434\u0430\u0447\u0438!"
+    Position: {x: 2370, y: 193}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 06c3b60e-8024-4304-ae3a-38a6f887ec2a
+    Content:
+      characterID: d1ee6daa-b996-42bc-9a50-716d37bfd91d
+      emotion: 0
+      DialogText: "\u041F\u043E\u043A\u0432\u0430!"
+    Position: {x: 2791, y: 190}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 098f2d10-8660-43e6-8a26-0bb63884ea0f
+    Content:
+      characterID: d1ee6daa-b996-42bc-9a50-716d37bfd91d
+      emotion: 0
+      DialogText: "\u041D\u043E \u0447\u0442\u043E \u044F \u0438\u043C \u0441\u0434\u0435\u043B\u0430\u043B\u0430?"
+    Position: {x: 619, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 7b018ebd-3cde-459f-9e15-c883df8bd632
+    Content:
+      characterID: 262cc418-a1f1-4082-b1c7-716216ec4e67
+      emotion: 0
+      DialogText: "\u042D\u0442\u043E \u043E\u0437\u043B\u043E\u0431\u043B\u0435\u043D\u043D\u044B\u0435
+        \u043D\u0430 \u043C\u0438\u0440 \u0434\u0443\u0448\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0432 \u0441\u0432\u043E\u0435 \u0432\u0440\u0435\u043C\u044F \u0441\u0430\u043C\u0438
+        \u043D\u0435 \u0441\u043C\u043E\u0433\u043B\u0438 \u043F\u0440\u043E\u0439\u0442\u0438
+        \u044D\u0442\u0438 \u0438\u0441\u043F\u044B\u0442\u0430\u043D\u0438\u044F."
+    Position: {x: 901, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 2f982198-d638-4a9a-b63c-378318009046
+    Content:
+      characterID: 262cc418-a1f1-4082-b1c7-716216ec4e67
+      emotion: 0
+      DialogText: "\u041E\u0434\u043D\u0430\u043A\u043E \u043F\u0440\u043E\u0441\u0442\u043E
+        \u0438\u0433\u043D\u043E\u0440\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+        \u0438\u0445 \u043D\u0435 \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0441\u044F.
+        \u0423 \u043D\u0438\u0445 \u043C\u043E\u0433\u0443\u0442 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u044C\u0441\u044F
+        \u043F\u043E\u043B\u0435\u0437\u043D\u044B\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u044B,
+        \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u043A\u043B\u044E\u0447."
+    Position: {x: 1183, y: 200}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: f12b8529-63e0-4b3b-a1c4-ed0cc87b6be7
+    Content:
+      characterID: 017eede3-2d3a-4265-a332-98b76f5f36d6
+      emotion: 0
+      DialogText: "\u0424\u0430\u043D\u044F \u2013 \u0438\u0441\u043A\u0443\u0441\u043D\u0430\u044F
+        \u0432\u043E\u043B\u0448\u0435\u0431\u043D\u0438\u0446\u0430, \u043A\u043E\u0442\u043E\u0440\u0430\u044F
+        \u0432\u043B\u0430\u0434\u0435\u0435\u0442 \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0435\u0439
+        \u043C\u0430\u0433\u0438\u0435\u0439. \u0427\u0442\u043E\u0431\u044B \u043D\u0430\u043D\u0435\u0441\u0442\u0438
+        \u0443\u0440\u043E\u043D \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443,
+        \u043D\u0430\u0436\u043C\u0438\u0442\u0435 \u041B\u041A\u041C \u0434\u043B\u044F
+        \u0432\u044B\u0441\u0442\u0440\u0435\u043B\u0430 \u043E\u0433\u043D\u0435\u043D\u043D\u044B\u043C
+        \u0441\u043D\u0430\u0440\u044F\u0434\u043E\u043C."
+    Position: {x: 1563, y: 213}
+    Type: 1
+    Choices:
+    - Next Dialog
+  - Guid: 9e9bd365-2f1e-45a9-a896-85a447efd504
+    Content:
+      characterID: 262cc418-a1f1-4082-b1c7-716216ec4e67
+      emotion: 0
+      DialogText: "\u041D\u0430 \u044D\u0442\u043E\u043C \u043D\u0430\u0448\u0438
+        \u043F\u0443\u0442\u0438 \u0440\u0430\u0441\u0445\u043E\u0434\u044F\u0442\u0441\u044F."
+    Position: {x: 1978, y: 203}
+    Type: 1
+    Choices:
+    - Next Dialog

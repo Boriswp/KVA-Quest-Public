@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0108f6e77d494dbc7e86b91f875f64, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  id: d1ee6daa-b996-42bc-9a50-716d37bfd91d
+  characterName: "\u0424\u0430\u043D\u044F"
+  faces:
+  - name: Normal
+    emotion: 0
+    face: {fileID: 1087818139, guid: 4ab5d32c5b4e0104ab48208991fd5e9c, type: 3}
+  isPlayer: 1
